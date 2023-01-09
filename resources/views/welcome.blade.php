@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<meta charset="UTF-8">
-<title>Aritec</title>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4E0BAQHUo_h0JGtwYw/company-logo_200_200/0/1606490589727?e=2159024400&v=beta&t=MznxbjFunN-3xUqfv2aTCkKzTL8AGNJ4VwoYb3oc1Wk" />
-    <title>CMGT HTML CSS</title>
-</head>
+@section('content')
 
-<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">{{ __('Dashboard') }}</div>
 
-<header>jojo</header>
 
 <main>
     <section id="homepage">
@@ -35,5 +30,5 @@
     </p>
 </footer>
 
-</body>
-</html>
+
+@endsection
